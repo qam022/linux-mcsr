@@ -36,3 +36,4 @@
 
 - [Drag clicking](./drag-clicking.md)
 - [tmpfs](./tmpfs.md)
+- [FPS Limiting with MangoHud](./mangohud.md)
