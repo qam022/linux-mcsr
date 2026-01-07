@@ -16,9 +16,9 @@ sudo dnf install mangohud
 
 If you are using another distro, consult [MangoHud's readme](https://github.com/flightlessmango/MangoHud?tab=readme-ov-file#installation---pre-packaged-binaries)
 
-## Setting PrismLauncher to use MangoHud
+## Setting Prism Launcher to use MangoHud
 
-- Go to Prism > Settings > Performance
+- Go to Prism > Instance settings > Performance
 
 - Check `Performance` to enable all options, and then check `Enable MangoHud`
 
@@ -41,4 +41,4 @@ no_display
 
 ### Environment variable
 
-- Go to Prism > Settings > Environment variables, add a new environment variable with the name `MANGOHUD_CONFIG`. Under "Value", enter `fps_limit=<YOUR_FPS_LIMIT>, no_display`, replacing `<YOUR_FPS_LIMIT>` with your desired FPS limit.
+- Go to Prism > Instance settings > Environment variables, and add a new environment variable with the name `MANGOHUD_CONFIG`. Under "Value", enter `fps_limit=<YOUR_FPS_LIMIT>, no_display`, replacing `<YOUR_FPS_LIMIT>` with the desired FPS limit.
