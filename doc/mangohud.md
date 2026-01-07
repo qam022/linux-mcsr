@@ -1,6 +1,8 @@
 # FPS Limiting with MangoHud
 
-Minecraft's native FPS limit setting cannot be set to any value above 250, and it is generally recommended to avoid unlimited FPS.
+Minecraft's native FPS limit setting cannot be set to any value above 250, and it is generally recommended to avoid unlimited FPS as Minecraft will consume a large amount of GPU resources without much visual improvement.
+
+As such, you may want to limit your FPS to a value above 250 (i.e. if you have a high refresh rate monitor)
 
 On Windows, NVIDIA Control Panel is frequently used to limit Minecraft's FPS instead.
 
@@ -32,7 +34,7 @@ MangoHud can be configured either with a config file, or by setting environment 
 
 - Create a file at `~/.config/mangohud/mangohud.conf`
 
-- Include the following, replacing `<YOUR_FPS_LIMIT>` with the desired FPS limit:
+- Paste the following into the file, replacing `<YOUR_FPS_LIMIT>` with the desired FPS limit:
 
 ```
 fps_limit=<YOUR_FPS_LIMIT>
